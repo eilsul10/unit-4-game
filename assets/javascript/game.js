@@ -1,3 +1,13 @@
+window.onload = function() {
+
+    //  Click events are done for us:
+    // $("#gem1").click(gemValue1); review within parentheses
+    $("#gem2").click(gemValue2);
+    $("#gem3").click(gemValue3);
+    $("#gem4").click(gemValue4);
+  };
+
+
 // declare Variable
 var randomNumber="";
 var totalScore="";
@@ -17,6 +27,7 @@ var computerGuess = randomNumber[Math.floor(Math.random() * randomNumber.length)
 
 document.getElementById("showWins").textContent = wins;
 document.getElementById("showLosses").textContent = losses;
+document.getElementById("showNumber").textContent = randomNumber;
 
 // new Game function
 
