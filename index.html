@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,62 +9,76 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <title>Crystals Collector</title>
 </head>
+
 <body>
 
-<div class="container">
-        <div class="row">
-            Crystals Collector
-        </div>
-        <div class="row">
-            The player will be shown a random number at the start of the game.
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <p class="text-center">
+                    <h1>Crystals Collector</h1>
+                </p>
+            </div>
+            <div class="row">
+                <p class="text-left">
+                    The player will be shown a random number at the start of the game.
 
-            When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
-                
-            The player wins if their total score matches the random number from the beginning of the game.
-            The player loses if their score goes above the random number.
-        </div>
+                    When the player clicks on a crystal, it will add a specific amount of points to the player's total
+                    score.
 
-        <div class ="row">
+                    The player wins if their total score matches the random number from the beginning of the game.
+                    The player loses if their score goes above the random number. </p>
+            </div>
+
+            <div class="row">
                 <div class="col-sm">
-                    Random number
+                    <h6>
+                        Random number</h6>
                     <div id="showNumber"></div>
                 </div>
                 <div class="col-sm">
-                    Wins
+                    <h6>
+                        Wins</h6>
                     <div id="showWins"></div>
-                    Losses
+                    <h6>Losses</h6>
                     <div id="showLosses"></div>
                 </div>
-        </div>
-
-        <div class="row">
-
-             <div id="buttons">
-                <button id="gem1">
-                    <img src="assets/images/Gems/gem1.jpg" class="img-fluid" alt="Responsive image" height="200px" width="200px">
-                </button>
-
-                <button id="gem2">
-                    <img src="assets/images/Gems/gem 2.jpg" class="img-fluid" alt="Responsive image" height="200px" width="200px">
-                </button>
-                <button id="gem3">
-                    <img src="assets/images/Gems/gem 3.jpg" class="img-fluid" alt="Responsive image" height="200px" width="200px">
-                </button>
-                <button id="gem4">
-                    <img src="assets/images/Gems/gem 4.jpg" class="img-fluid" alt="Responsive image" height="200px" width="200px">
-                </button>
             </div>
-                    </div>
 
-        <div class ="row">
-            Your total score is:
-            <div id="totalScore"></div>
+            <div class="row">
+
+                <div id="buttons">
+                    <button id="gem1">
+                        <img src="assets/images/Gems/gem1.jpg" class="img-fluid" alt="Responsive image" height="200px"
+                            width="200px">
+                    </button>
+
+                    <button id="gem2">
+                        <img src="assets/images/Gems/gem 2.jpg" class="img-fluid" alt="Responsive image" height="200px"
+                            width="200px">
+                    </button>
+                    <button id="gem3">
+                        <img src="assets/images/Gems/gem 3.jpg" class="img-fluid" alt="Responsive image" height="200px"
+                            width="200px">
+                    </button>
+                    <button id="gem4">
+                        <img src="assets/images/Gems/gem 4.jpg" class="img-fluid" alt="Responsive image" height="200px"
+                            width="200px">
+                    </button>
+                </div>
+            </div>
+
+            <div class="row">
+                <h6>Your total score is: <br></h6>
+                <div id="totalScore"></div>
+            </div>
         </div>
-</div>
+    </div>
 
-<script src="assets/javascript/game.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    
+    <script src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
